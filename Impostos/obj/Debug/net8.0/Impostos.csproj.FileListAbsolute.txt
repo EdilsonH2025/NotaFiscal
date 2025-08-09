@@ -1,0 +1,14 @@
+E:\CSHARP\Impostos\Impostos\obj\Debug\net8.0\Impostos.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSHARP\Impostos\Impostos\obj\Debug\net8.0\Impostos.AssemblyInfoInputs.cache
+E:\CSHARP\Impostos\Impostos\obj\Debug\net8.0\Impostos.AssemblyInfo.cs
+E:\CSHARP\Impostos\Impostos\obj\Debug\net8.0\Impostos.csproj.CoreCompileInputs.cache
+E:\CSHARP\Impostos\Impostos\bin\Debug\net8.0\Impostos.exe
+E:\CSHARP\Impostos\Impostos\bin\Debug\net8.0\Impostos.deps.json
+E:\CSHARP\Impostos\Impostos\bin\Debug\net8.0\Impostos.runtimeconfig.json
+E:\CSHARP\Impostos\Impostos\bin\Debug\net8.0\Impostos.dll
+E:\CSHARP\Impostos\Impostos\bin\Debug\net8.0\Impostos.pdb
+E:\CSHARP\Impostos\Impostos\obj\Debug\net8.0\Impostos.dll
+E:\CSHARP\Impostos\Impostos\obj\Debug\net8.0\refint\Impostos.dll
+E:\CSHARP\Impostos\Impostos\obj\Debug\net8.0\Impostos.pdb
+E:\CSHARP\Impostos\Impostos\obj\Debug\net8.0\Impostos.genruntimeconfig.cache
+E:\CSHARP\Impostos\Impostos\obj\Debug\net8.0\ref\Impostos.dll
