@@ -12,3 +12,4 @@ E:\CSHARP\Impostos\Impostos\obj\Debug\net8.0\refint\Impostos.dll
 E:\CSHARP\Impostos\Impostos\obj\Debug\net8.0\Impostos.pdb
 E:\CSHARP\Impostos\Impostos\obj\Debug\net8.0\Impostos.genruntimeconfig.cache
 E:\CSHARP\Impostos\Impostos\obj\Debug\net8.0\ref\Impostos.dll
+E:\CSHARP\Impostos\Impostos\obj\Debug\net8.0\Impostos.sourcelink.json

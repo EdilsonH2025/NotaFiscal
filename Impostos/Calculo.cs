@@ -28,7 +28,7 @@
                 Cofins = total * 0.03,
                 Csll = total * 0.01,
                 Irrf = total * 0.012,
-                Inss = (maodeobra+bdi)*0.11
+                Inss = (maodeobra + bdi) * 0.11
             };
         }
     }
