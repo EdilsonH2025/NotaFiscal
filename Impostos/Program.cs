@@ -11,7 +11,9 @@ namespace Impostos
         {
             
             string caminho = "dados.txt";
-           
+            string cabecalho = "Data;Total;PIS;COFINS;IRRF; CSLL;INSS;Total_Impostos;Valor_Líquido;\n";
+
+
             Calculo calc = new Calculo();
 
             Console.WriteLine("Informe o valor do material:");
@@ -37,7 +39,7 @@ namespace Impostos
             Console.WriteLine($"O valor do IRRF é {Impostos.Irrf:C}");
             Console.WriteLine($"O valor do CSLL é {Impostos.Csll:C}");
             Console.WriteLine($"O valor do INSS é {Impostos.Inss:C}");
-            Console.WriteLine($"O total de impostos é {Impostos.Pis + Impostos.Cofins + Impostos.Irrf + Impostos.Csll:C}");
+            Console.WriteLine($"O total de impostos é {Impostos.Pis + Impostos.Cofins + Impostos.Irrf + Impostos.Csll + Impostos.Inss:C}");
             Console.WriteLine($"O Valor liquido será {total - (Impostos.Pis + Impostos.Cofins + Impostos.Irrf + Impostos.Csll + Impostos.Inss):C}\n\n");
 
             string conteudo =
@@ -50,10 +52,14 @@ namespace Impostos
      $"" +
      $"" +
      $"{Impostos.Inss:C};" +
-     $"{Impostos.Pis + Impostos.Cofins + Impostos.Irrf + Impostos.Csll:C};" +
+     $"{Impostos.Pis + Impostos.Cofins + Impostos.Irrf + Impostos.Csll+ Impostos.Inss:C};" +
      $"{total - (Impostos.Pis + Impostos.Cofins + Impostos.Irrf + Impostos.Csll + Impostos.Inss):C}\n"; //+
      //$"----------------------------------------\n";
-
+            
+            if (!File.Exists(caminho))
+            {
+                File.WriteAllText(caminho, cabecalho);
+            }
             File.AppendAllText(caminho, conteudo);
             string historico = File.ReadAllText(caminho);
 
