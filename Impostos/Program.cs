@@ -6,11 +6,7 @@ namespace Impostos
 {
     class Impostos
     {
-        /* public double Pis;
-         public double Cofins;
-         public double Csll;
-         public double Irrf;*/
-
+       
         public static void Main(string[] args)
         {
             
@@ -45,16 +41,19 @@ namespace Impostos
             Console.WriteLine($"O Valor liquido será {total - (Impostos.Pis + Impostos.Cofins + Impostos.Irrf + Impostos.Csll + Impostos.Inss):C}\n\n");
 
             string conteudo =
-    $"Data: {DateTime.Now}\n" +
-    $"Total: {total:C}\n" +
-    $"PIS: {Impostos.Pis:C}\n" +
-    $"COFINS: {Impostos.Cofins:C}\n" +
-    $"IRRF: {Impostos.Irrf:C}\n" +
-    $"CSLL: {Impostos.Csll:C}\n" +
-    $"INSS: {Impostos.Inss:C}\n" +
-    $"Total de Impostos: {Impostos.Pis + Impostos.Cofins + Impostos.Irrf + Impostos.Csll:C}\n" +
-    $"Valor Líquido: {total - (Impostos.Pis + Impostos.Cofins + Impostos.Irrf + Impostos.Csll + Impostos.Inss):C}\n" +
-    $"----------------------------------------\n";
+     $"{DateTime.Now};" +
+     $"{total:C};" +
+     $"{Impostos.Pis:C};" +
+     $"{Impostos.Cofins:C};" +
+     $"{Impostos.Irrf:C};" +
+     $"{Impostos.Csll:C};" +
+     $"" +
+     $"" +
+     $"{Impostos.Inss:C};" +
+     $"{Impostos.Pis + Impostos.Cofins + Impostos.Irrf + Impostos.Csll:C};" +
+     $"{total - (Impostos.Pis + Impostos.Cofins + Impostos.Irrf + Impostos.Csll + Impostos.Inss):C}\n"; //+
+     //$"----------------------------------------\n";
+
             File.AppendAllText(caminho, conteudo);
             string historico = File.ReadAllText(caminho);
 
